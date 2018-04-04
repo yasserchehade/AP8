@@ -116,11 +116,11 @@ end
 F=zeros(N+2);
 u=zeros(N+2);
 U=zeros(N);
-v=15;
+v=60;
 error=zeros(1,v);
 w=zeros(1,v);
 for z=1:v
-    w(z)=0.1*(z)/dt;
+    w(z)=0.025*(z)/dt;
 
     for ii=1:N+2
         for jj=1:N+2
